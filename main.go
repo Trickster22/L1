@@ -9,7 +9,13 @@ import (
 	"L1/task14"
 	"L1/task15"
 	"L1/task16"
+	"L1/task17"
+	"L1/task18"
+	"L1/task19"
 	"L1/task2"
+	"L1/task20"
+	"L1/task21"
+	"L1/task22"
 	"L1/task3"
 	"L1/task4"
 	"L1/task5"
@@ -61,6 +67,18 @@ func main() {
 			task15.Run()
 		case 16:
 			task16.Run()
+		case 17:
+			task17.Run()
+		case 18:
+			task18.Run()
+		case 19:
+			task19.Run()
+		case 20:
+			task20.Run()
+		case 21:
+			task21.Run()
+		case 22:
+			task22.Run()
 		default:
 			fmt.Println("unknown task number:", taskNumber)
 		}
